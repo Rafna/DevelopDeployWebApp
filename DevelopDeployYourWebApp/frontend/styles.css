@@ -1,0 +1,56 @@
+h1 {
+    color: aquamarine;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight:bolder;
+}
+
+#HomeTitle {
+    color: beige;
+}
+
+.instructions {
+    color:bisque
+}
+
+
+
+table {
+    background-color: azure;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+/*
+@media (min-width: 600px) {
+    body {
+        background-color: black;
+    }
+}
+
+@media (max-width: 599px) {
+    body {
+        background-color: blanchedalmond;
+    }
+}
+    */
+
+    @media(width <= 800px) {
+        body {
+            background-color: blue;
+        }
+    }
+    @media (width > 800px) {
+        body {
+            background-color: blueviolet;
+        }
+    }
+

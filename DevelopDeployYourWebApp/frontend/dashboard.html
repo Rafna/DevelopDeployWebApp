@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>User Dashboard</title>
+        <style>
+            #container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            container > div {
+                background-color: brown;
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+                width: 100px;
+            }
+            #grid {
+                display: grid;
+                background-color: burlywood;
+                padding: 20px;
+                column-gap: 20px;
+                row-gap: 10px;
+                grid-template-columns: 100px 100px auto;
+            }
+            .grid-item {
+                background-color: cadetblue;
+                font-size: 20px;
+                padding: 10px;
+                text-align: center;
+            }
+            .row > div {
+                background-color: chartreuse;
+                padding: 20px;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My Dashboard</h1>
+        <div id="container">
+            <div>My produce listings</div>
+            <div>Tomato - 50</div>
+            <div>Apple - 50</div>
+            <div>Parsley - 2 bunches</div>
+            <div>My collected produce listings</div>
+            <div>Pear - 20</div>
+            <div>Eggplant - 10</div>
+            <div>Thyme - 3 bunches</div>
+            <div>Cucumber - 4</div>
+            <div>Pumpkin - 2</div>
+        </div>
+        <h4>Below is the details of the donated or collected people</h4>
+        <div id="grid">
+            <div class="grid-item">Items I collected</div>
+            <div class="grid-item">Quantity</div>
+            <div class="grid-item">Contact details</div>
+            <div class="grid-item">Pear</div>
+            <div class="grid-item">20</div>
+            <div class="grid-item">Jane Doe</div>
+            <div class="grid-item">Eggplant</div>
+            <div class="grid-item">10</div>
+            <div class="grid-item">John Doe</div>
+            <div class="grid-item">Thyme</div>
+            <div class="grid-item">1 bunch</div>
+            <div class="grid-item">Jane Doe</div>
+            <div class="grid-item">Thyme</div>
+            <div class="grid-item">2 bunches</div>
+            <div class="grid-item">April Nuggets</div>
+        </div>
+        <div class="bootstrap-container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">Items I collected:</div>
+                <div class="col-lg-3 col-sm-6">Quantity:</div>
+                <div class="col-lg-3 col-sm-6">Contact Name:</div>
+                <div class="col-lg-3 col-sm-6">Contact Email:</div>
+            </div>
+        </div>
+    </body>
+</html>
